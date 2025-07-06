@@ -13,3 +13,16 @@ if sum==n:
     print("amstrong")
 else:
     print("not amstrong")
+# Armstrong number 
+n=int(input())
+l=len(str(n))
+temp=n
+sum=0
+while(n>0):
+    r=n%10
+    sum=sum+r**l
+    n=n/10
+if temp==sum:
+    print("armstromg")
+else:
+    print("not armstrong")
